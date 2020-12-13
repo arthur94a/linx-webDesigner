@@ -79,6 +79,8 @@ body{
     text-align: center;
     padding-top: 0.5em;
     font-weight: bold;
+    margin-right: 60em;
+    margin-top: 4%;
 }
 
 .task-content{
@@ -169,4 +171,74 @@ body{
 
 .footer-text-logo img{
     margin-top: 0.7em;
+}
+
+/*==============================================================
+                            Mobile
+===============================================================*/
+@media only screen and (max-width: 600px) {
+
+.header-searching{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    width: 87%;
+    height: 7em;
+    align-items: center;
+}
+
+.header-searching form{
+    margin-bottom: 1em;
+    margin-right: 0;
+}
+
+.search-input{
+    padding-right: 8em;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-image{
+    margin-top: 0.4em;
+}
+
+.task-image img{
+    height: 231px;
+}
+
+.task-block{
+    width: 90%;
+    display: flex;
+    display: row
+}
+
+.task-block-inside{
+    margin-left: 1em;
+}
+
+.task-button{
+    width: 95%;
+}
+
+.footer-text-logo{
+    display: flex;
+    flex-direction: column;
+    margin: 3em 2em;
+    align-items: center;
+}
+
+.footer-text-logo p{
+    text-align: center;
+}
+
+.footer-text-logo img{
+    margin-top: 0.7em;
+    margin-bottom: 3em;
+    margin-left: 7em;
+}
+
 }
