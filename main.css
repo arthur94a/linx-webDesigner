@@ -202,6 +202,11 @@ body{
     align-items: center;
 }
 
+.task-msg{
+    margin-right: 79%;
+    margin-top: -60em;
+}
+
 .task-image{
     margin-top: 0.4em;
 }
@@ -242,3 +247,85 @@ body{
 }
 
 }
+
+@media only screen and (max-width: 1080px) {
+
+.task{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 17%;
+    margin-right: 11%;
+    align-items: center;
+}  
+
+.task-msg{
+    margin-right: 64%;
+    margin-top: -60em;
+}
+
+.task-image{
+    margin-top: 0.4em;
+}
+
+.task-image img{
+    height: 231px;
+}
+
+.task-block{
+    width: 90%;
+    display: flex;
+    display: row
+}
+
+.task-block-inside{
+    margin-left: 1em;
+}
+
+.task-button{
+    width: 95%;
+}
+
+.header-searching{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 70%;
+    height: 7em;
+    align-items: center;
+
+}
+.header-searching form{
+    margin-bottom: 1em;
+    margin-right: 0;
+}
+
+.search-input{
+    padding-right: 8em;
+}
+
+.footer-text-logo{
+    display: flex;
+    flex-direction: column;
+    margin: 3em 2em;
+    align-items: center;
+}
+
+.footer-text-logo p{
+    text-align: center;
+}
+
+.footer-text-logo img{
+    margin-top: 0.7em;
+    margin-bottom: 3em;
+    margin-left: 7em;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+.header-searching form{
+     margin-right: 10%;
+}
+}
+
