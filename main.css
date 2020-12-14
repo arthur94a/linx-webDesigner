@@ -45,6 +45,8 @@ body {
     margin-right: 31%;
     background-color: white;
     border-radius: 5px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
 }
 
 .task {
@@ -64,8 +66,14 @@ body {
 }
 
 .task-image {
-   text-align: center;
-   margin-top: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.task-image img {
+    object-fit: cover;
+    width: 200px; 
+    height: 180px;
 }
 
 .task-msg {
@@ -161,6 +169,11 @@ body {
     flex-direction: row;
     margin: 3em 13em;
     color: #414141;
+}
+
+.footer-text-logo img {
+    width: 234px;
+    height: 137px;
 }
 
 .footer-text-logo p { 
