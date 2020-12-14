@@ -156,6 +156,7 @@ body {
     border-radius: 4px;
     -webkit-appearance: none;
     -webkit-border-radius: 2px;
+    max-block-size: -webkit-fill-available;
 }
 
 .footer {
