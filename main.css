@@ -48,11 +48,6 @@ body {
     border-radius: 5px;
 }
 
-.header-searching input{
-    -webkit-appearance: none;
-    -webkit-border-radius: 0;
-}
-
 .task {
     display: flex;
     flex-direction: row;
@@ -159,6 +154,8 @@ body {
     border: 2px white;
     border-style: solid;
     border-radius: 4px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 2px;
 }
 
 .footer {
