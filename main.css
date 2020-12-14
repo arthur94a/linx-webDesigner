@@ -150,13 +150,14 @@ body {
 }
 
 .search-input {
-    padding: 0.5em;
+    padding-left: 1em;
+    margin-right: 1.7em;
     border: 2px white;
     border-style: solid;
     border-radius: 4px;
     -webkit-appearance: none;
     -webkit-border-radius: 2px;
-    max-block-size: -webkit-fill-available;
+    font-size: 12px;
 }
 
 .footer {
